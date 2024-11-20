@@ -85,4 +85,34 @@ class SinglyLinkedList {
         }
         println(values.joinToString(" -> "))
     }
+
+    fun add(position: Int, value: Int) {
+        var current = head
+        var index = 2
+        while (position > index) {
+            current = current!!.next
+            index++
+        }
+        current!!.next!!.value += value
+    }
+
+    fun set(position: Int, value: Int) {
+        var current = head
+        var index = 2
+        while (position > index) {
+            current = current!!.next
+            index++
+        }
+        current!!.next!!.value = value
+    }
+
+    fun remove(position: Int, value: Int) {
+        var current = head
+        var index = 2
+        while (position > index) {
+            current = current!!.next
+            index++
+        }
+        current!!.next!!.value -= value
+    }
 }

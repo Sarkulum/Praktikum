@@ -32,4 +32,16 @@ fun main() {
     linkedList.addLast(50)
     linkedList.addFirst(5)
     linkedList.printList() // Output: 5 -> 20 -> 40 -> 50
+
+    println("\nChanging value of certain nodes:")
+    linkedList.add(2, 10)
+    linkedList.printList() // Output: 5 -> 30 -> 40 -> 50
+
+    println("\nSetting certain nodes to specific value:")
+    linkedList.set(1, 33)
+    linkedList.printList() // Output: 33 -> 30 -> 40 -> 50
+
+    println("\nSubtraction of a certain node:")
+    linkedList.remove(4, 30)
+    linkedList.printList() // Output: 5 -> 30 -> 40 -> 20
 }

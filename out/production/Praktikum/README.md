@@ -1,1 +1,1 @@
-Some stuff i programmed during Training at. Mostly Kotlin stuff so far.
+Some stuff i programmed during Training. Mostly Kotlin stuff so far.
