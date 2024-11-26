@@ -1,3 +1,5 @@
+package lists
+
 fun main() {
     val linkedList = SinglyLinkedList()
 

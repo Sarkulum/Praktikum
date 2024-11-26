@@ -1,3 +1,5 @@
+package lists
+
 class ListNode(var value: Int, var next: ListNode? = null) {
     override fun toString(): String {
         return value.toString()

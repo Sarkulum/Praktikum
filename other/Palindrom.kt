@@ -1,3 +1,5 @@
+package other
+
 fun main(){
     println(isPalindrom("Hallo")) //false
     println(isPalindrom("madam")) //true

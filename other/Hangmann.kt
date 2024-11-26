@@ -1,3 +1,5 @@
+package other
+
 import java.util.Scanner
 import kotlin.random.Random
 

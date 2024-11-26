@@ -1,3 +1,5 @@
+package sorting
+
 fun sorting(list: List<Int>) : List<Int>{
     val listMute = list.toMutableList()
     for (i in 0 until listMute.size -1){

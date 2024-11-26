@@ -1,3 +1,5 @@
+package math
+
 import java.util.*
 
 fun main() {
@@ -122,7 +124,9 @@ open class Circle(a: Double) : Calculation(a, 0.0, 0.0, 0.0, GeometricShape.CIRC
     }
 }
 
-open class Square(a: Double, b: Double = 0.0, c: Double = 0.0, d: Double = 0.0) : Calculation(a, b, c, d, GeometricShape.SQUARE) {
+open class Square(a: Double, b: Double = 0.0, c: Double = 0.0, d: Double = 0.0) : Calculation(a, b, c, d,
+    GeometricShape.SQUARE
+) {
     var out1 = 0.0  // Area
 
     // calculate the area of the square

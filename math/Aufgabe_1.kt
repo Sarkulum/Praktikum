@@ -1,3 +1,5 @@
+package math
+
 fun main() {
     println(sumOfDigits(123))
 }

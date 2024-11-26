@@ -1,3 +1,5 @@
+package sorting
+
 fun bubbleSorting(list: MutableList<Int>) : List<Int>{
     // need .size because otherwise you get syntax error because it makes it into a number and not a list
     for (i in 0 until list.size -1){

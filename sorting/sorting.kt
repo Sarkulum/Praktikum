@@ -1,3 +1,5 @@
+package sorting
+
 fun main(){
     val list = listOf(1, 6, 3, 4, 5, 7, 9, 0, 2, 8) // List in nem val weil ich die nicht bei bubbleSort(hier rein setzen kann weil keine Anhnung)
     println(bubbleSort(list))
